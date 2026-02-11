@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- PAGE 1: BENZENE LANDING -->
+  <div id="benzene-page" class="page">
+    <h1 class="title">CODE CANVAS</h1>
+    <div class="benzene-container">
+      <svg class="benzene-ring" viewBox="0 0 200 200">
+        <polygon points="100,20 170,60 170,140 100,180 30,140 30,60" 
+                 fill="none" 
+                 stroke="#1E3A5F" 
+                 stroke-width="3" />
+      </svg>
+      <button id="enter-canvas-btn" class="benzene-button">
+        <span class="plus">+</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- PAGE 2: CODE CANVAS WORKSPACE -->
+  <div id="canvas-page" class="page hidden">
+    <div id="canvas"></div>
+    <button id="add-tab-btn" class="canvas-add-button">
+      <span class="plus">+</span>
+    </button>
+  </div>
+
+  <script src="canvas.js"></script>
+</body>
+</html>

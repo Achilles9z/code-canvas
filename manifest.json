@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Code Canvas",
+  "version": "1.0",
+  "description": "Benzene landing page → floating code workspace",
+  "chrome_url_overrides": {
+    "newtab": "benzene.html"
+  },
+  "permissions": ["storage"]
+}
