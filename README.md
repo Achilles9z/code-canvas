@@ -3,6 +3,8 @@
 A Chrome extension that turns your new tab into a floating code workspace.
 
 ![screenshot](screenshot.png)
+<img width="1053" height="763" alt="Screenshot2" src="https://github.com/user-attachments/assets/82b2c720-dd3d-4ce3-b54a-9c8262377961" />
+
 
 ## Features
 - Benzene landing page → click + to enter
